@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memo · Avermo</title>
+<meta name="description" content="Why we started Avermo, and how we build, deliver and run a trading platform.">
+<link rel="canonical" href="https://avermo.com/memo.html">
+<meta name="theme-color" content="#12161C">
+<meta name="color-scheme" content="light dark">
+<meta name="darkreader-lock">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Avermo">
+<meta property="og:title" content="Memo · Avermo">
+<meta property="og:description" content="Why we started Avermo, and how we build, deliver and run a trading platform.">
+<meta property="og:url" content="https://avermo.com/memo.html">
+<meta property="og:image" content="https://avermo.com/images/og-image.png?v=2">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Avermo">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/inter.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="fonts/cormorant-garamond-italic.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="memo-page">
+
+<header class="topbar">
+<div class="wrap">
+<a class="brand" href="/" aria-label="Avermo, back to the main page">
+<img src="images/logo.svg" alt="" width="208" height="141">
+<span>AVERMO</span>
+</a>
+<nav class="nav" aria-label="Main">
+<a class="nav-link" href="/"><span aria-hidden="true">←&nbsp;</span>Back</a>
+<a class="btn" href="mailto:founders@avermo.com">Get in touch</a>
+</nav>
+</div>
+</header>
+
+<main>
+<article class="memo">
+<div class="wrap">
+<h1>Memo</h1>
+<h2>Why we started Avermo</h2>
+<p>Our team has spent over twenty years designing, delivering and operating trading platforms worldwide. From the inside, we have seen the market consolidate around a handful of vendors running on decades-old technology. They have proven themselves, but years of incremental layering have made their platforms complex and expensive. The result for their clients: months-long implementations, customisations that undermine stability, and new features that take too long to reach the desk.</p>
+<p>The rest of the software world has moved on. Today’s best products are lean: simple to run and improving without disruption. Avermo brings that standard to trading.</p>
+<h2>What it takes</h2>
+<p>That means rethinking how a platform is built, delivered and run. AI, combined with our team’s deep experience, lets us build a lean platform at unmatched speed. And to pass this acceleration on to you, we deploy to production every few days. It all rests on concrete conditions:</p>
+<ul class="memo-list">
+<li><strong>Built to evolve.</strong> Core workflows are part of the original design and every change is held to trading-grade standards, so the platform grows without layers of legacy.</li>
+<li><strong>Comprehensive automated testing.</strong> AI lets us write and maintain tests at scale, covering far more scenarios than any manual test campaign.</li>
+<li><strong>What we test is what you run.</strong> Every institution runs the same core in its own environment and adapts it in two ways: through configuration, built into the core and tested with it; or through client-specific code, for needs such as integrations, developed and tested exactly like the core. No untested bespoke code on the side.</li>
+<li><strong>Small, frequent releases.</strong> Each one is easy to test automatically, limited in impact and quick to roll back, so risk goes down.</li>
+<li><strong>Nothing reaches production without your approval.</strong> Each release ships with release notes and test results, for you to approve, without a full manual regression campaign each time.</li>
+<li><strong>No downtime needed.</strong> Updates are applied without stopping the platform, in agreed windows outside trading hours.</li>
+<li><strong>New features, at your own pace.</strong> Each release is deployed to production with new features switched off. You decide when to activate them: configure each feature in UAT, adapt your connected systems and switch it on in production when ready.</li>
+</ul>
+<h2>Agent-native</h2>
+<p>AI is changing not only the way we build, but also the way trading desks want to work with their platform. Avermo is built for both. It is ready to work directly with AI agents, under the same permission controls as any user. You can plug in your own agents to streamline operations, explore and analyse your data, or offer new experiences to your clients.</p>
+<h2>How we get there</h2>
+<p>We are building Avermo with key partners who want to shape the platform of tomorrow, brick by brick, flow by flow alongside their existing systems.</p>
+<p>Deploying a trading platform is never trivial, so we lead the project and take on most of the work. You tell us what you need, and our experienced team configures the platform accordingly, with tools that automate as much as possible. Your teams stay involved where it matters and keep their focus on the business. Once the platform is live, configuration is in your hands.</p>
+<p>At Avermo, we believe a trading platform should meet today’s tech standards. Always up to date. Simple to run. As fast as your business.</p>
+</div>
+</article>
+</main>
+
+<footer class="foot">
+<div class="wrap">
+<a class="brand" href="/" aria-label="Avermo, back to the main page">
+<img src="images/logo.svg" alt="" width="208" height="141">
+<span>AVERMO</span>
+</a>
+<span>© 2026 Avermo</span>
+</div>
+</footer>
+
+</body>
+</html>
