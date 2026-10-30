@@ -78,8 +78,8 @@ p,li{text-wrap:pretty}
 
 /* 6. Memo page */
 .memo-page{background:var(--cream)}
-.memo .wrap{max-width:680px;padding-top:96px;padding-bottom:112px}
-.memo h1{margin-bottom:80px;font-family:var(--font-serif);font-style:italic;font-size:clamp(52px,6vw,72px);line-height:1}
+.memo .wrap{max-width:680px;padding-top:64px;padding-bottom:112px}
+.memo h1{margin-bottom:40px;font-family:var(--font-serif);font-style:italic;font-size:clamp(52px,6vw,72px);line-height:1}
 .memo h2{margin:48px 0 16px;font-size:clamp(24px,2.2vw,28px);line-height:1.25;letter-spacing:-.01em}
 .memo h1 + h2{margin-top:0}
 .memo p{margin:0 0 24px;font-size:18px;line-height:1.6;color:var(--text)}
@@ -87,13 +87,13 @@ p,li{text-wrap:pretty}
 .memo-list li{margin:0 0 16px;padding-left:24px;font-size:18px;line-height:1.6;color:var(--text)}
 /* small square marker, inline so it follows the first line; centred on the lowercase height */
 .memo-list li::before{content:'';display:inline-block;width:5px;height:5px;margin-left:-24px;margin-right:19px;vertical-align:.15em;background:var(--slate)}
-.memo-list strong{font-weight:600;color:var(--ink)}
+.memo strong{font-weight:600;color:var(--ink)}
 
 /* Dark version of the memo, only on screens whose device is set to dark mode
    (memo.html declares color-scheme "light dark"; the other pages stay light) */
 @media screen and (prefers-color-scheme:dark){
 .memo-page{background:var(--ink)}
-.memo h1,.memo h2,.memo-list strong{color:var(--cream)}
+.memo h1,.memo h2,.memo strong{color:var(--cream)}
 .memo p,.memo-list li{color:var(--sand)}
 .memo-list li::before{background:var(--sand)}
 .memo-page ::selection{background:var(--cream);color:var(--ink)}
@@ -118,7 +118,7 @@ p,li{text-wrap:pretty}
 .btn{padding:11px 14px}
 .hero-mark{height:70%;right:-30%;bottom:-8%}
 .block .wrap{padding-top:72px;padding-bottom:72px}
-.memo .wrap{padding-top:64px}
+.memo .wrap{padding-top:44px}
 .memo p,.memo-list li{font-size:17px}
 }
 @media (max-width:420px){
