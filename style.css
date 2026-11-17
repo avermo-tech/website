@@ -29,9 +29,9 @@ p,li{text-wrap:pretty}
 .serif{font-family:var(--font-serif);font-style:italic}
 
 /* 4. Components */
-.brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--cream)}
+/* official lockup file (images/lockup.svg, from the brand kit); 24px high = 124px wide, the minimum lockup size */
+.brand{display:flex;align-items:center;text-decoration:none;color:var(--cream)}
 .brand img{display:block;height:24px;width:auto}
-.brand span{font-weight:500;font-size:15px;letter-spacing:.32em;margin-right:-.32em}
 
 .topbar{position:sticky;top:0;z-index:10;background:var(--bar);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--rule-dark)}
 .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:18px;padding-bottom:18px}
@@ -52,8 +52,6 @@ p,li{text-wrap:pretty}
 
 .foot{background:var(--ink);color:var(--sand);font-size:13px;border-top:1px solid var(--rule-dark)}
 .foot .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:32px;padding-bottom:32px}
-.foot .brand img{height:16px}
-.foot .brand span{font-size:12px}
 
 /* 5. Home page */
 .hero{position:relative;overflow:hidden;background:var(--ink);color:var(--cream)}
@@ -111,9 +109,6 @@ p,li{text-wrap:pretty}
 .points{grid-template-columns:repeat(3,1fr);gap:40px}
 }
 @media (max-width:640px){
-.brand{gap:10px}
-.brand img{height:18px}
-.brand span{font-size:12px;letter-spacing:.24em;margin-right:-.24em}
 .nav{gap:16px}
 .btn{padding:11px 14px}
 .hero-mark{height:70%;right:-30%;bottom:-8%}
@@ -126,9 +121,12 @@ p,li{text-wrap:pretty}
 .narrow-only{display:inline}
 }
 @media (max-width:360px){
-.brand{gap:8px}
 .nav{gap:12px}
 .btn{padding:10px 12px}
+}
+/* smallest phones: narrower gutter so the 124px lockup, memo link and button fit on one line */
+@media (max-width:340px){
+.wrap{padding-left:16px;padding-right:16px}
 }
 
 /* 9. Motion: only when the visitor has not asked for reduced motion */
