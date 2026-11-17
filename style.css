@@ -58,6 +58,7 @@ p,li{text-wrap:pretty}
 .hero .wrap{position:relative;z-index:1;padding-top:144px;padding-bottom:176px;display:flex;flex-direction:column;gap:24px}
 .hero-mark{position:absolute;right:-10%;bottom:-4%;height:100%;width:auto;opacity:.045;pointer-events:none}
 .hero h1{font-size:clamp(42px,6.2vw,86px);line-height:1.03;letter-spacing:-.025em;max-width:14ch}
+.hero h1.two-lines{max-width:none}
 .sub{margin:0;font-size:clamp(26px,2.7vw,36px);line-height:1.25;color:var(--sand);max-width:28em;text-wrap:balance}
 
 .block .wrap{padding-top:112px;padding-bottom:112px;display:flex;flex-direction:column}
@@ -112,6 +113,7 @@ p,li{text-wrap:pretty}
 .nav{gap:16px}
 .btn{padding:11px 14px}
 .hero-mark{height:70%;right:-30%;bottom:-8%}
+.two-lines br{display:none}
 .block .wrap{padding-top:72px;padding-bottom:72px}
 .memo .wrap{padding-top:44px}
 .memo p,.memo-list li{font-size:17px}
